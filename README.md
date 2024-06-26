@@ -45,23 +45,23 @@ Our target audience are the outdoor adventure clientele who use there holidays g
 
 - Homepage design is made up of the header, body and footer.
 
-![Landing Page](https://github.com/grant-britchford/GreatHall/assets/145594323/d260deec-53f8-4927-90e8-7663f8239284)
+[Landing Page](https://github.com/grant-britchford/GreatHall/assets/145594323/d260deec-53f8-4927-90e8-7663f8239284)
 
 - Rooms page is made of header, room details and room booking form.
 
-![Rooms page](https://github.com/grant-britchford/GreatHall/assets/145594323/857ca4e7-8791-4738-a467-148d6e92b43b)
+[Rooms page](https://github.com/grant-britchford/GreatHall/assets/145594323/857ca4e7-8791-4738-a467-148d6e92b43b)
 
 - Restuarant page design includes header footer, menu view and refreshments list. Also includes booking forms.
 
-![Resturant page](https://github.com/grant-britchford/GreatHall/assets/145594323/8cb80e76-f107-44d7-a9f6-c71a3a372334)
+[Resturant page](https://github.com/grant-britchford/GreatHall/assets/145594323/8cb80e76-f107-44d7-a9f6-c71a3a372334)
 
 - Spa page includes all indoor facilities and the outdoor programs with booking facilities.
 
-![Spa page](https://github.com/grant-britchford/GreatHall/assets/145594323/37aa76fc-1541-40a3-a66a-d51ab744427d)
+[Spa page](https://github.com/grant-britchford/GreatHall/assets/145594323/37aa76fc-1541-40a3-a66a-d51ab744427d)
 
 - Hotel contact page consists of all the contact details and an inbuilt message form
 
-![Contact page](https://github.com/grant-britchford/GreatHall/assets/145594323/d6c436ab-3112-41b6-8642-76fb8a936f9a)
+[Contact page](https://github.com/grant-britchford/GreatHall/assets/145594323/d6c436ab-3112-41b6-8642-76fb8a936f9a)
 
 
 ### Color Scheme
@@ -92,19 +92,19 @@ The fonts used for the website are:
 
 ### Databases
 
-- (https://console.neon.tech), used for the PostgreSQL database creation.
+- SQLiteStudio, created using sqlite3 as the database language.
 
 ### Frameworks
 
 -  Django, was the Python framework used to create the code framework used to create the project and app.
-- (https://bootstrapcdn.com), was used for the CSS framework.
+- [Bootstrap CDN](https://bootstrapcdn.com), was used for the CSS framework.
 
 ### Programs
 
 - GitHub was used to create the project repository.
 - Visual Studio Code was used as the coding enviroment.
 - Heroku was used as the cloud-based deployment site.
-- ![Google Fonts](https://fonts.google.com), for the fonts source.
+- [Google Fonts](https://fonts.google.com), for the fonts source.
 - Balsamiq was the wireframe design program used for the eiwreframe designs.
 - Am I responsive was used for the various device applications.
 
@@ -140,7 +140,7 @@ The fonts used for the website are:
 
 ### Resources
 
-- ![latlong](https://latlong.net), used for the location details for the websire.
-- ![skjalden](https://skjalden.com), used fro the traditinal viking color schemes.
+- [latlong](https://latlong.net), used for the location details for the websire.
+- [skjalden](https://skjalden.com), used fro the traditinal viking color schemes.
 
 ### Acknowledgements
