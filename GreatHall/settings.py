@@ -11,8 +11,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
-from os import getenv
-from dotenv import load_dotenv
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -21,12 +20,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-2$6k+wq+-8q0adbl!q+*&sez#&!_qur6lnvu5(id8a)&5)$ag1"
+SECRET_KEY = "django-insecure-gefu^4r*&9+@epgoqelifjt1cm-z$h!j*j9a#ut_*2@c2#2*nz"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com',]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -38,7 +37,6 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "StoreSalen",
 ]
 
 MIDDLEWARE = [
@@ -77,15 +75,8 @@ WSGI_APPLICATION = "GreatHall.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": getenv('PGDATABASE'),
-        "USER": getenv('PGUSER'),
-        "PASSWORD": getenv('PGPASSWORD'),
-        "HOST": getenv('PGHOST'),
-        "PORT": getenv('PGPORT', 5432),
-        "OPTIONS": {
-            'sslmode': 'require',
-        },
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": BASE_DIR / "db.sqlite3",
     }
 }
 
