@@ -104,7 +104,7 @@ The fonts used for the website are:
 - GitHub was used to create the project repository.
 - Visual Studio Code was used as the coding enviroment.
 - Heroku was used as the cloud-based deployment site.
-- (https://fonts.google.com), for the fonts source.
+- ![Google Fonts](https://fonts.google.com), for the fonts source.
 - Balsamiq was the wireframe design program used for the eiwreframe designs.
 - Am I responsive was used for the various device applications.
 
@@ -120,6 +120,12 @@ The fonts used for the website are:
 
 ### Development
 
+- After having major problems connecting my project up to a remote Postgres database, I opted to download SQLiteStudio and creating the database using this. I then connected the database to my project using:
+  1. cmd
+  2. cd c:\hotel0\sqlitestudio\scripts\win32
+  3. compile.bat
+  4. create_dist_pkg.bat.
+
 ### Bugs
 
 ### Unsolved Bugs
@@ -134,7 +140,7 @@ The fonts used for the website are:
 
 ### Resources
 
-- (https://latlong.net), used for the location details for the websire.
-- (https://skjalden.com), used fro the traditinal viking color schemes.
+- ![latlong](https://latlong.net), used for the location details for the websire.
+- ![skjalden](https://skjalden.com), used fro the traditinal viking color schemes.
 
 ### Acknowledgements
