@@ -15,4 +15,14 @@
    "files.autoSave": "off",
    "workbench.colorTheme": "Visual Studio Dark",
    "terminal.integrated.gpuAcceleration": "canvas",
+   "sqltools.useNodeRuntime": true,
+   "sqltools.connections": [
+      {
+         "previewLimit": 50,
+         "driver": "SQLite",
+         "name": "GreatHall",
+         "group": "sqlite3",
+         "database": "C:\\Program Files\\SQLiteStudio\\hotel"
+      }
+   ],
 }
